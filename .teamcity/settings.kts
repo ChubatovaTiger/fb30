@@ -36,7 +36,7 @@ project {
 object Root2 : GitVcsRoot({
     name = "root2"
     url = "https://github.com/ChubatovaTiger/ChubatovaGradleTestsBackup"
-    branch = "refs/heads/4"
+    branch = "refs/heads/5"
     checkoutPolicy = GitVcsRoot.AgentCheckoutPolicy.SHALLOW_CLONE
 })
 
