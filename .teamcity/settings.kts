@@ -51,10 +51,6 @@ object Project2 : Project({
 object Project2_Build1 : BuildType({
     name = "build1"
 
-    vcs {
-        root(Project2_Root3)
-    }
-
     steps {
         script {
             id = "simpleRunner"
