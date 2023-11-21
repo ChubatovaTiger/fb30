@@ -43,8 +43,6 @@ object Root2 : GitVcsRoot({
 object Project2 : Project({
     name = "project2"
 
-    vcsRoot(Project2_Root3)
-
     buildType(Project2_Build1)
 })
 
@@ -57,10 +55,4 @@ object Project2_Build1 : BuildType({
             scriptContent = "ls"
         }
     }
-})
-
-object Project2_Root3 : GitVcsRoot({
-    name = "root3"
-    url = "https://github.com/ChubatovaTiger/ChubatovaGradleTestsBackup"
-    branch = "refs/heads/4"
 })
