@@ -51,6 +51,8 @@ object Project2_Build1 : BuildType({
     name = "build1"
 
     vcs {
+        root(Root2)
+
         cleanCheckout = true
     }
 
