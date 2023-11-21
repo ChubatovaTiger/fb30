@@ -59,7 +59,7 @@ object Project2_Build1 : BuildType({
     steps {
         script {
             id = "simpleRunner"
-            scriptContent = "ls"
+            scriptContent = "echo 1"
         }
     }
 })
