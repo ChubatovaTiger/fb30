@@ -57,7 +57,7 @@ object Project2_Build1 : BuildType({
     steps {
         script {
             id = "simpleRunner"
-            scriptContent = "echo 2"
+            scriptContent = "echo 3"
         }
     }
 })
